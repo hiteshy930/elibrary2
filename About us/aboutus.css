@@ -1,0 +1,72 @@
+body{
+  background-image: url("aboutus.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+#aboutus_div2{
+  width: 70%;
+  height: 400px;;
+  background-color: #222629;
+  /* background: rgba(0.1, 0, 0, 0.5); */
+  /* border-radius: 5%; */
+  float: right;
+  padding-right: 250px;
+  position:relative;
+  top:40px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+#aboutus_div{
+  width: 200px;
+  height: 400px;;
+  background-color: white;
+  float: left;
+  /* background: rgba(0.1, 0, 0, 0.5); */
+  /* border-radius: 5%; */
+  position:relative;
+  left: 23px;
+  top:40px;
+  /* border: 5px solid black; */
+  /* opacity: 0.6;
+  filter: alpha(opacity=60); */
+}
+.aboutus_li1{
+  font-family: 'Aleo';
+  font-size: 30px;
+  font-weight: bold;
+  list-style: none;
+  margin:35px;
+
+}
+.aboutus_li{
+  font-family: 'Aleo';
+  font-size: 30px;
+  font-weight: bold;
+  list-style: none;
+  margin:60px;
+  color: white;
+
+}
+.aboutus_li >img{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top:0px;
+}
+#desc{
+  background-color: white;
+  color: black;
+  padding: 20px;
+margin-left: 30px;
+  position: relative;
+  top:500px;
+  width:95%;
+  height:200px;
+}
+#desc > p{
+  font-family:'Aleo';
+  font-size: 20px;
+  padding-left: 60px;
+  position: relative;
+  top:-300px;
+}

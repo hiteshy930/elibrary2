@@ -1,0 +1,80 @@
+body{
+  background-image: url("contactus.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+#contactus_div{
+  width: 600px;
+  height: 600px;
+  float: right;
+  background-color: #222629;
+
+  border-radius: 10%;
+  position:relative;
+  top:50px;
+  right: 150px;
+  background: rgba(0, 0, 0, 0.3);
+
+}
+.contactus_li{
+  font-family: 'Aleo';
+  font-size: 30px;
+  list-style: none;
+  margin: 50px;
+
+}
+.contactus_li > a {
+  padding: 5px;
+  text-decoration: none;
+  font-family: 'Aleo';
+  font-size: 30px;
+  color: white;
+}
+.contactus_li >img{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top:15px;
+}
+
+#back>a{
+  position: relative;
+  top:10px;
+  font-size: 20px;
+  left: 500px;
+  color: white;
+
+}
+
+#cu_form{
+  width: 600px;
+  height: 600px;
+  float: left;
+  background-color: #222629;
+  border-radius: 5%;
+  position: relative;
+  top:50px;
+  left:150px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}
+#cu_name,#cu_email,#cu_subject,#cu_message{
+  font-family: 'Aleo';
+  font-size: 20px;
+  padding-left: 20px;
+  margin: 30px;
+
+}
+#cu_name>input,#cu_email>input,#cu_subject>input{
+  width: 350px;
+  height:30px;
+}
+
+#cu_message{
+  width: 300px;
+
+}
+#cu_message>textarea{
+  position: relative;
+  left: 60px;
+}

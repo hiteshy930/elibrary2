@@ -1,0 +1,118 @@
+body{
+  background-image: url("signup.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.signup_div{
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  top:10px;
+  background-color: #222629;
+  background: rgba(0, 0, 0, 0.3);
+
+}
+#font_div{
+  width: 600px;
+  height:400px;
+  color: #222629;
+  font-size: 40px;
+  position: relative;
+  top:170px;
+  left:50px;
+  border: 5px solid #222629;
+  text-align: left;
+}
+.signup_title_div{
+  width: 600px;
+  height: 100px;
+  position: relative;
+  top:-420px;
+  left: 850px;
+  background-color: #86C232;
+  /* background: rgba(0, 0, 0, 0.1); */
+}
+.signup_div_card{
+  width: 600px;
+  height: 700px;
+  position: relative;
+  top:-380px;
+  left: 850px;
+  background-color: #86C232;
+}
+#signup_username,#signup_email,#signup_conpass,#signup_pass{
+  font-family: "Aleo";
+  font-size: 20px;
+  position: relative;
+  top:30px;
+  left: 30px;
+  padding:20px;
+}
+#signup_username>input,#signup_email>input,#signup_conpass>input,#signup_pass>input{
+  width: 350px;
+  height:30px;
+
+}
+#back{
+  position: relative;
+  top:10px;
+  left:500px;
+  font-size: 20px;
+}
+
+#signup_button>input{
+  width: 200px;
+  height: 50px;
+  background-color: #222629;
+  color: white;
+  font-family: 'Aleo';
+  font-size: 30px;
+  float: right;
+  position: relative;
+  top:60px;
+  right: 90px;
+}
+#signup_or_with{
+  position: relative;
+  top:130px;
+  left: 130px;
+}
+#signup_fb_div,#signup_gmail_div{
+  position: relative;
+  top:150px;
+  left: 100px;
+  display: inline-block;
+
+}
+#signup_fb_div>input{
+  background-color: darkblue;
+  font-size: 20px;
+  font-family: 'Aleo';
+  color: white;
+  position: relative;
+  left:-60px;
+  width: 220px;
+  height: 50px;
+}
+#signup_fb_div>img{
+  position: relative;
+  top:20px;
+  left:-60px;
+
+}
+#signup_gmail_div>input{
+  background-color: darkred;
+  font-size: 20px;
+  font-family: 'Aleo';
+  color: white;
+  position: relative;
+  left:-60px;
+  width: 200px;
+  height: 50px;
+}
+#signup_gmail_div>img{
+  position: relative;
+  top:20px;
+  left:-60px;
+  margin-left:10px;
+}

@@ -1,0 +1,32 @@
+body{
+  background-image: url("add_book.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#book_div{
+  width: 600px;
+  height: 700px;
+  background-color: #222629;
+  color:white;
+  padding: 40px;
+  position: relative;
+  top:50px;
+  left: 450px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.book{
+  margin-left: 20px;
+}
+.book>input{
+  width: 400px;
+  height: 30px;
+  margin: 20px;
+}
+#back>a{
+  position: relative;
+  top:10px;
+  left:520px;
+  font-size: 20px;
+  color: white;
+}

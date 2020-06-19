@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="../index.css">
+    <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+    <script>
+        function fb_popup(){
+          alert("Sorry...Not in use. We are working here.");
+        }
+    </script>
+    <title></title>
+  </head>
+  <body>
+      <div class="signup_div">
+          <div id="font_div"><h1 style="position: relative; top:50px; left: 30px;">Let's!! Join Our Community</h1></div>
+          <!-- enter here title -->
+          <div class="signup_title_div">
+            <h1 style="text-align: center; font-family: 'Aleo'; font-size: 50px; color: black; position:relative; left: 5px; bottom:-10px;">Sign Up</h1>
+          </div>
+          <form action="signup.php" method="POST">
+            <div class="signup_div_card">
+              <div id="back"> <a href="..\index.html">Home</a></div>
+              <div id="signup_username">
+                  Name :&emsp13;&emsp13;&emsp13;&emsp13;&emsp13; <input type="text" name="name" value="" placeholder="Enter your name" required>
+              </div>
+              <div id="signup_email">
+                  Email-id : &emsp13;&emsp13;<input type="text" name="email" value="" placeholder="Enter your Email" required>
+              </div>
+              <div id="signup_pass">
+                  Password : <input type="password" name="password" value="" placeholder="Enter your password" required>
+              </div>
+              <div id="signup_conpass">
+                <label>  Confirm:</label>&emsp13; &emsp13; <input type="password" name="conpass" value="" placeholder="Re-Enter your password" required>
+              </div>
+              <!-- insert remembr me -->
+                        <div id="signup_button">
+                          <input type="submit" name="signup" value="Sign Up" onclick="verify()">
+                      </div>
+                      <p id="signup_or_with">_____________or Connect with______________</p>
+                      <div id="signup_fb_div">
+                        <img src="fb1.svg" alt="">
+                        <input type="button" name="signup_fb" value="Signup with facebook" onclick="fb_popup();">
+                      </div>
+                      <div id="signup_gmail_div">
+                        <img src="gmail1.svg" alt="">
+                        <input type="button" name="signup_google" value="Signup with google" onclick="window.location='../google_signup/google_signup.php'">
+                      </div>
+            </div>
+
+
+      </div>
+      <div class="footer">
+
+          <div id="footer_div1">
+            <ul class="footer_ul">
+              <li class="footer_li"><img src="../footer/home_footer.png" alt=""><a href="index.html">Home</a> </li>
+              <li class="footer_li"><img src="../footer/About_footer.png" alt=""><a href="About us\aboutus.html">About Us</a> </li>
+              <li class="footer_li"><img src="../footer/news_footer.png" alt=""><a href="">News Letter</a> </li>
+              <li class="footer_li"><img src="../footer/contact_footer.png" alt=""><a href="contactus\contactus.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div id="footer_div2" >
+            <ul class="footer_ul">
+              <li class="footer_li" style="color: white;">Links with me: </li>
+              <li class="footer_li"><img src="../footer/linkedin.png" alt=""> <a href="https://www.linkedin.com/in/hitesh-yadav-063096b8/">: Follow on LinkedIn</a> </li>
+              <li class="footer_li"><img src="../footer/HE_logo.png" alt=""> <a href="https://www.hackerearth.com/@hiteshy930">: Follow on HackerEarth</a> </li>
+              <li class="footer_li"><img src="../footer/HR_logo.png" alt=""> <a href="https://www.hackerrank.com/hiteshy930">: Follow on HackerRank</a> </li>
+            </ul>
+          </div>
+
+
+  </body>
+</html>

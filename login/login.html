@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+    <title></title>
+    <script>
+        function fb_popup(){
+          alert("Sorry...Not in use. We are working here.");
+        }
+    </script>
+  </head>
+  <body>
+      <div class="login_div">
+          <!-- enter here title -->
+          <div id="font_div"><h1 style="position: relative; top:50px; left: 50px;">Use your key & keep it secret</h1></div>
+          <div class="login_title_div">
+            <h1 style="text-align: center; font-family: 'Aleo'; font-size: 50px; color: black; position:relative; left: 5px; bottom:-10px;">Login</h1>
+          </div>
+
+          <form action="login.php" method="POST">
+            <div class="login_div_card">
+                <div id="back"> <a href="..\index.html">Home</a></div>
+              <div id="login_username">
+                  Email-id :&emsp13;&emsp13;&emsp13; <input type="text" name="username" value="" placeholder="Enter your username"required>
+              </div>
+              <div id="login_pass">
+                  Password :&emsp13;  <input type="password" name="password" value="" placeholder="Enter your password" required>
+              </div>
+              <!-- insert remembr me -->
+              <div id="checkbox">
+                <!-- <input type="checkbox" name="remember_me" value="Rem"> <label>Remember me</label> -->
+                <!--insert forgot password   -->
+                  <a href="contactus.html">forgot password</a>
+                </div>
+                        <div id="login_button">
+                          <input type="submit" name="login" value="Login">
+                      </div>
+                      <p id="or_with">_____________or Connect with______________</p>
+                      <div id="fb_div">
+                        <img src="fb.svg" alt="">
+                        <input type="button" name="login" value="Login with facebook" onclick="fb_popup();">
+                      </div>
+                      <div id="gmail_div">
+                        <img src="gmail.svg" alt="">
+                        <input type="button" name="login" value="Login with google" onclick="window.location='../google_login/google_login.php'">
+                      </div>
+            </div>
+          </form>
+
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,37 @@
+body{
+  background-color: lightgreen;
+
+}
+.redirect_card{
+  width: 600px;
+  height: 500px;
+  color:lightgreen;
+  position: absolute;
+  top:100px;
+  left:500px;
+  background-color: white;
+  text-align: center;
+
+}
+.redirect_card >h1{
+  color:lightgreen;
+  padding: 20px;
+  position: absolute;
+  top:10px;
+  left:30px;
+
+}
+.redirect_card >img{
+  width: 350px;
+  height: 270px;
+  position: absolute;
+  top:130px;
+  left:100px;
+}
+.redirect_card >h3{
+  color: black;
+  padding: 20px;
+  position: absolute;
+  top:400px;
+  left:40px;
+}
