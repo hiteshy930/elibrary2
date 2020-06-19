@@ -1,6 +1,7 @@
 body{
   background-color: #86C232;
   background-attachment: fixed;
+    overflow:scroll; 
 }
 .header{
   font-size: 30px;
@@ -47,6 +48,7 @@ body{
   background-size: 100% 100%;
   background-attachment: fixed;
   padding-top: 50px;
+
 
 }
 
