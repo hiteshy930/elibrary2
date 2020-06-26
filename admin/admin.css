@@ -6,7 +6,7 @@
   position: relative;
 }
 #nav_bar{
-  width: 300px;
+  width: 320px;
   height: 600px;
   background-color: lightblue;
   float: left;
@@ -40,7 +40,7 @@
   float: right;
   position: relative;
   top:50px;
-  right: 30px;
+  
   overflow: scroll;
   padding: 50px;
 }

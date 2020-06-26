@@ -1,5 +1,5 @@
 body{
-  background-image: url("aboutus.jpg");
+background-color: #ecffff;
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -59,7 +59,7 @@ body{
   padding: 20px;
 margin-left: 30px;
   position: relative;
-  top:500px;
+  top:450px;
   width:95%;
   height:200px;
 }

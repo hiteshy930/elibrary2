@@ -1,47 +1,127 @@
+*{
+  /* margin: 10px; */
+}
 .card{
   width: 300px;
-  height: 500px;
-  border: 5px solid black;
+  height: 300px;
   float:left;
   display: block;
-  padding: 20px;
-  margin: 20px;
-  margin-top:20px;
-  background-color: #86C232;
-  border-radius: 10px;
-  overflow-y: scroll;
+  padding: 10px;
+  margin: 10px;
+  margin-left:40px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
 
 }
 .card-img-top{
-    width: 200px;
-    height: 300px;
-    padding-left:40px;
+    width: 120px;
+    height: 200px;
+    padding-left:10px;
     padding-top: 10px;
 
 }
 .card-body{
-
+  width: 180px;
+  position: relative;
+  top:-210px;
+  left:140px;
+  font-size: 15px;
+  /* border: 1px solid black; */
 }
 .card-title{
 
 }
 .card-text{
-  text-align: center;
+  text-align: left;
+
 }
-.btn-primary{
+.card-readby{
+  position: relative;
+  top:-110px;
+  left:10px;
+}
+.card>form>input[type="submit"]{
   padding: 10px;
   background-color: #222629;
   color: white;
   font-family: 'Aleo';
   font-size: 20px;
+  position: relative;
+  top: -100px;
+}
+.dashboard_console{
+  position: absolute;
+  top:5px;
+  font-size: 30px;
+  /* left: 20px; */
+  font-family: 'Arial';
+  float: left;
+
+}
+.footer_db{
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  left:0px;
+  width: 100%;
+  height: 200px;
+
+  background-color: #78ccff;
+}
+.form_search>input{
+  width:400px;
+  height:30px;
+  float:left;
+  border-radius: 5px;
+  position: absolute;
+  top:100px;
+  left:20px;
+
+}
+.form_search>input[type="submit"]{
+  width: 100px;
+  background-color:#78ccff;
+   color: white;
+   float: left;
+  font-family: 'Aleo';
+  font-size: 20px;
+   left:450px;
+}
+.form_search>input[name="all_books"]{
+  width: 100px;
+  background-color:#78ccff;
+   color: white;
+   float: left;
+
+   left:600px;
+}
+.div_category>form>input,select{
+  width:200px;
+  height:30px;
+  float:right;
+  border-radius: 5px;
+  position: absolute;
+  top:100px;
+   right:210px;
+
+}
+.div_category>form>input{
+  width: 100px;
+  background-color:#78ccff;
+  color: white;
+  font-family: 'Aleo';
+  font-size: 20px;
+  right: 80px;
+}
+.front_div{
+  background-color: #ecffff;
+  float: left;
 }
 
 
-
-
-
 /* Dashboard css */
-body{
+/* body{
   background-color: #86C232;
 }
 .header{
@@ -73,21 +153,14 @@ body{
   padding-left: 50px;
   padding-right: 50px;
   color:white;
-  /* border :5px solid black; */
+
 }
 
 .menu >ul>li>a{
   color: white;
   text-decoration: none;
 }
-.dashboard_console{
-  background-color: white;
-  height: 50px;
-  position: absolute;
-  top:10px;
-  left: 10px;
 
-}
 .front_div{
   font-family: 'Aleo';
   width: 100%;
@@ -101,30 +174,21 @@ body{
   padding-top: 50px;
 
 }
-.footer{
-  font-size: 30px;
-  position: absolute;
-  bottom: 0px;
-  left:0px;
-  width: 100%;
-  height: 200px;
 
-  background-color: #222629;
-}
 #footer_div1 > .footer_ul{
   margin-left: 150px;
   font-size: 20px;
   float: left;
   width: 350px;
   height: 200px;
-  /* border: 5px white solid; */
+
 }
 #footer_div2 >.footer_ul{
   font-size: 20px;
   margin-right: 250px;
   width: 450px;
   height: 200px;
-  /* border: 5px white solid; */
+
   float: right;
 }
 .footer_li >a ,img{
@@ -133,4 +197,4 @@ body{
   padding-left: 10px;
   text-decoration: none;
   color: white;
-}
+} */

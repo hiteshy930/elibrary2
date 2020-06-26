@@ -82,11 +82,15 @@
                   $query="DELETE from books where book_id='$book_id'";
                   $result=$conn->query($query);
 
+
+
                       if ($result === TRUE) {
                         echo "Book removed successfully";
                       } else {
                         echo "Error: " . $result . "<br>" . $conn->error;
                       }
+                      $query_cat="DELETE from category where book_id='$book_id'";
+                      $results=$conn->query($query_cat);
                   }
 
 
@@ -190,6 +194,7 @@
                                      $book_edition=$_POST['book_edition'];
                                      $publish_year=$_POST['publish_year'];
 
+
                                       if(isset($_POST['add_book_form'])){
                                      $filename = $_FILES['book_image']['name'];
                                       $filename = str_replace(" ", "", $filename);
@@ -223,6 +228,12 @@
                                     }
 
                                       add_book($conn,$book_id,$book_name,$author_name,$book_edition,$publish_year,$filename,$fileurl );
+
+                                      $category=$_POST['category'];
+                                       
+                                      $query="INSERT INTO category (book_id,book_category) VALUES ('$book_id','$category')";
+                                      $results=$conn->query($query);
+
                                      echo "<br>";
                                     see_book_list($conn);
                               }

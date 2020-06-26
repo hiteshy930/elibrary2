@@ -32,8 +32,20 @@
             </div>
             <div class="book">
                 <label> Upload book :</label> &emsp13; <input type="file" name="book_url" value="" placeholder="Upload book pdf here" accept="application/pdf">
-                <br>only pdf format*</br>
+                <p>&emsp14;only pdf format*</p>
             </div>
+            <div class="book">
+              <label> Select book category :</label>
+                    <select name="category">
+                    <option value="select">Select Category</option>
+                    <option value="Inspiration">Inspiration</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Thrill">Thrill</option>
+                    <option value="Personal">Personal Development</option>
+                    <option value="Story">Story</option>
+                    <option value="Computer">Computer</option>
+                    </select>
+              </div>
             <input type="submit" name="add_book_form" value="Finish" style="width:100px; height: 40px; background-color:#86C232; color:white; position: relative; top:50px; left:400px;">
 
           </form>
